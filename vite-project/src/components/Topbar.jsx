@@ -1,4 +1,4 @@
-import { Container, Stack } from '@mui/material'
+import { Button, Container, Stack } from '@mui/material'
 import React from 'react'
 
 function Topbar() {
@@ -8,7 +8,7 @@ function Topbar() {
             <a>Home</a>
             <a>Products</a>
             <input type="text" placeholder='enter text'/>
-            <a>Search</a>
+            <Button variant="contained" color="secondary">Search</Button>
             <a>Logout</a>
         </Container>
     </div>
