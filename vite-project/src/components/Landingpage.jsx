@@ -9,6 +9,8 @@ function Landingpage() {
       <Stack direction="column">
       <Button variant='contained'>Click Me</Button>
       <Button sx={{p:2}} variant='outlined'>Exit</Button>
+      <Button variant='contained'>Log out</Button>
+      <Button sx={{p:2}} variant='outlined'>Cart</Button>
       </Stack>
       </Stack>
       </div>
