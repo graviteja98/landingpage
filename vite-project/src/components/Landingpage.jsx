@@ -1,19 +1,23 @@
 import React from 'react'
-import { Typography,Button, Stack } from '@mui/material'
+import { Typography,Button, Stack, CircularProgress, Container } from '@mui/material'
 import Topbar from './Topbar';
 
 function Landingpage() {
+  const clickHandler = ()=>{
+  
+  }
   return (
-    <div>
+   <Container>
       <Topbar/>
       <Stack direction="column">
       <Typography variant="h1">Landing page</Typography>
       <Stack direction="row">
-      <Button variant='contained'>Click Me</Button>
-      <Button sx={{p:2}} variant='outlined'>Exit</Button>
+      <Button variant='contained' sx={{p:2,m:2}}>Click Me</Button>
+      <Button onClick={clickHandler} sx={{p:2,m:2}} variant='contained' color="secondary">Toggle</Button>
+      <CircularProgress sx={{m:2}}/>
       </Stack>
       </Stack>
-      </div>
+      </Container>
   );
 }
 
