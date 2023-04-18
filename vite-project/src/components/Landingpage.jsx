@@ -8,7 +8,7 @@ function Landingpage() {
       <Typography variant="h1">Landing page</Typography>
       <Stack direction="column">
       <Button variant='contained'>Click Me</Button>
-      <Button sx={{p:2}} variant='contained' color="secondary">Exit</Button>
+      <Button sx={{p:2}} variant='outlined'>Exit</Button>
       </Stack>
       </Stack>
       </div>
